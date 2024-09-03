@@ -24,7 +24,7 @@ void Linear_search(int arr[],int n)
 
 int main()
 {
-    int n,target;
+    int n;
     cout << "The number of elements :";
     cin  >> n;
     int arr[n];
