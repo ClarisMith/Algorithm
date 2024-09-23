@@ -29,7 +29,7 @@ void peek()
     }
     else
     {
-        cout << "Stack is empty";
+        cout << "Stack is empty"<<endl;
     }
 }
 void display()

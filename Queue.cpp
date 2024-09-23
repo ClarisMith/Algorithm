@@ -32,13 +32,14 @@ void Delete()
 }
 void peek()
 {
-    if (front != -1)
+    if (front == -1)
     {
-    cout << arr[front] << endl;
+        cout << "Queue is empty" << endl;
+   
     }
     else
     {
-        cout << "Queue is empty" << endl;
+        cout << "First element is : "<<arr[front] << endl;
     }
 }
 void Display()
